@@ -41,11 +41,12 @@
 <body>
 
 <h1>로또도사 개인정보 처리방침</h1>
-<p class="meta">시행일: 2026년 7월 26일 · 최종 수정일: 2026년 7월 26일</p>
+<p class="meta">시행일: 2026년 8월 27일 · 최종 수정일: 2026년 8월 27일<br>
+<span style="font-size:.95em">(이전 시행일: 2026년 7월 26일 — 인앱결제 제공 사실 및 결제 처리 주체 안내, 익명 통계 수집 안내 추가)</span></p>
 
 <p>본 방침은 모바일 애플리케이션 <strong>로또도사</strong>(이하 "본 앱")의 개인정보 처리에 관한 사항을 안내합니다. 본 앱의 개발자(이하 "개발자")는 「개인정보 보호법」 및 「정보통신망 이용촉진 및 정보보호 등에 관한 법률」 등 관련 법령을 준수합니다.</p>
 
-<p><strong>요약:</strong> 본 앱은 회원가입 절차가 없으며, 이용자를 식별할 수 있는 이름·전화번호·이메일 등의 개인정보를 서버에 수집·저장하지 않습니다. 이용자가 생성·저장한 번호 등 앱 내 데이터는 모두 이용자의 기기에만 저장됩니다. 다만 광고 제공, 판매점 지도, 당첨번호 조회를 위해 아래에 기재된 범위의 정보가 처리되거나 제휴 서비스로 전송될 수 있습니다.</p>
+<p><strong>요약:</strong> 본 앱은 회원가입 절차가 없으며, 이용자를 식별할 수 있는 이름·전화번호·이메일 등의 개인정보를 서버에 수집·저장하지 않습니다. 이용자가 생성·저장한 번호 등 앱 내 데이터는 모두 이용자의 기기에만 저장됩니다. 다만 광고 제공, 판매점 지도, 당첨번호 조회를 위해 아래에 기재된 범위의 정보가 처리되거나 제휴 서비스로 전송될 수 있습니다. 또한 본 앱은 광고 제거·개발자 후원을 위한 <strong>인앱결제</strong>를 제공하지만, 결제 처리는 전적으로 Google Play 및 App Store가 수행하며 개발자는 카드번호 등 결제수단 정보를 수집·보관하지 않습니다. 아울러 번호 추천 기능이 실제로 도움이 되는지 확인하기 위해 <strong>당첨 등수와 번호가 만들어진 기능 구분</strong>만 익명으로 집계하며, 이용자가 저장한 번호 조합 자체나 이용자를 식별할 수 있는 정보는 전송하지 않습니다.</p>
 
 <h2>1. 수집·처리하는 정보의 항목과 이용 목적</h2>
 
@@ -89,10 +90,47 @@
       <td>해당 외부 서비스 서버</td>
       <td>필수</td>
     </tr>
+    <tr>
+      <td>인앱결제 이용 내역</td>
+      <td>구매한 상품 ID, 구매·복원 시각, 이용 기간(만료 시각), 결제 성공 여부<br>(결제수단 정보는 포함되지 않음)</td>
+      <td>광고 제거·후원 상품의 혜택 적용, 재설치·기기 변경 시 구매 복원, 중복 구매 방지</td>
+      <td>이용자 기기 내부 저장소<br>(결제 처리 및 영수증 보관은 Google Play / App Store)</td>
+      <td>선택</td>
+    </tr>
+    <tr>
+      <td>익명 통계 정보</td>
+      <td>저장한 번호의 당첨 등수(1~5등), 해당 번호가 만들어진 기능 구분(직접 입력·AI 추천·오늘의 운세·꿈 해몽·고정수 조합·번호 점수 평가), 회차별로 대조한 번호 세트 수, 앱 인스턴스 ID 및 기기·앱 정보, IP 주소<br>(이용자가 저장한 번호 조합 자체는 포함되지 않음)</td>
+      <td>번호 추천 기능이 실제 당첨에 기여하는지에 대한 통계 분석 및 서비스 개선</td>
+      <td>Google Firebase Analytics 서버</td>
+      <td>필수</td>
+    </tr>
   </tbody>
 </table>
 
-<p>본 앱은 회원가입, 로그인, 결제 기능을 제공하지 않으며 이름, 생년월일, 연락처, 이메일 주소, 결제 정보, 연락처 목록, 사진첩, 통화 기록 등을 수집하지 않습니다.</p>
+<p>본 앱은 회원가입 및 로그인 기능을 제공하지 않으며, 이름, 생년월일, 연락처, 이메일 주소, 연락처 목록, 사진첩, 통화 기록 등을 수집하지 않습니다.</p>
+
+<h3>인앱결제에 관한 안내</h3>
+
+<p>본 앱은 광고 제거 및 개발자 후원을 위한 <strong>인앱결제(광고 제거 구독, 광고 제거 1개월권, 후원 상품)</strong>를 제공합니다. 인앱결제는 전적으로 선택 사항이며, 구매하지 않아도 앱의 모든 기능을 이용할 수 있습니다.</p>
+
+<ul>
+  <li>결제 과정은 <strong>Google Play 결제 시스템</strong>(Android) 또는 <strong>App Store 결제 시스템</strong>(iOS)이 수행하며, 결제 화면도 해당 스토어가 직접 표시합니다.</li>
+  <li>개발자는 카드번호, 계좌번호, 결제 승인 정보 등 <strong>결제수단 정보를 수집·보관하지 않으며, 열람할 수도 없습니다.</strong> 이용자가 스토어에 입력한 결제 정보는 개발자에게 전달되지 않습니다.</li>
+  <li>앱은 스토어가 회신한 구매 결과(상품 ID, 구매·복원 시각, 이용 기간, 성공 여부)만 전달받아 광고 제거 혜택을 적용하기 위해 <strong>이용자의 기기 내부에만</strong> 저장합니다. 이 정보는 개발자가 운영하는 서버로 전송되지 않습니다.</li>
+  <li>영수증과 구매 내역은 이용자의 스토어 계정에 보관됩니다. 구매 내역 확인, 구독 해지, 환불 요청은 Google Play 또는 App Store를 통해 진행하시기 바랍니다.</li>
+</ul>
+
+<h3>익명 통계에 관한 안내</h3>
+
+<p>본 앱은 <strong>Google Firebase Analytics</strong>를 이용해 앱 이용 통계를 익명으로 집계합니다. 수집 목적은 "본 앱의 번호 추천 기능이 실제 당첨에 기여하는가"를 확인하고 기능을 개선하는 데 있습니다.</p>
+
+<ul>
+  <li>이용자가 저장해 둔 번호를 앱이 <strong>기기 안에서</strong> 당첨번호와 대조한 뒤, 그 결과인 <strong>당첨 등수</strong>와 <strong>해당 번호가 만들어진 기능 구분</strong>, 그리고 대조한 번호 세트의 개수만 전송합니다.</li>
+  <li><strong>이용자가 저장한 번호 조합 자체는 전송되지 않습니다.</strong> 이름·연락처·이메일 등 이용자를 직접 식별할 수 있는 정보, 결제 내역, 위치 정보도 전송하지 않습니다.</li>
+  <li>다만 Firebase Analytics는 기술적 특성상 앱 인스턴스 ID, 기기·앱 정보, IP 주소를 함께 처리합니다. 이 값들은 개별 이용자를 특정하기 위한 것이 아니라 통계 집계와 중복 제거를 위해 사용됩니다.</li>
+  <li>수집된 정보는 개별 이용자 단위로 열람하지 않으며, 등수·기능 구분별 집계 형태로만 확인합니다.</li>
+  <li>앱을 삭제하거나 앱 데이터를 삭제하면 기기에 저장된 앱 인스턴스 ID가 초기화됩니다.</li>
+</ul>
 
 <h2>2. 앱 접근 권한 안내</h2>
 
@@ -116,7 +154,9 @@
 
 <h2>3. 광고 및 광고 식별자</h2>
 
-<p>본 앱은 무료로 제공되며, 운영을 위해 Google이 제공하는 모바일 광고 서비스인 <strong>Google AdMob</strong>을 통해 광고를 게재합니다. 이 과정에서 Google 및 그 광고 파트너는 이용자의 광고 식별자, 기기 정보, IP 주소에 기반한 대략적 위치, 광고 조회·클릭 기록 등을 수집·이용할 수 있습니다.</p>
+<p>본 앱은 기본적으로 무료로 제공되며, 운영을 위해 Google이 제공하는 모바일 광고 서비스인 <strong>Google AdMob</strong>을 통해 광고를 게재합니다. 이 과정에서 Google 및 그 광고 파트너는 이용자의 광고 식별자, 기기 정보, IP 주소에 기반한 대략적 위치, 광고 조회·클릭 기록 등을 수집·이용할 수 있습니다.</p>
+
+<p>인앱결제로 광고 제거 상품을 구매해 혜택이 적용된 동안에는 앱 내 광고가 노출되지 않으며, 그동안에는 광고 요청도 이루어지지 않습니다.</p>
 
 <ul>
   <li>Google의 개인정보 처리에 관한 자세한 내용:
@@ -147,6 +187,12 @@
       <td>미국 등 Google 데이터센터 소재 국가</td>
     </tr>
     <tr>
+      <td>Google Firebase Analytics<br>(Google LLC)</td>
+      <td>당첨 등수, 번호가 만들어진 기능 구분, 대조한 번호 세트 수, 앱 인스턴스 ID, 기기·앱 정보, IP 주소</td>
+      <td>앱 이용 통계 분석 및 서비스 개선</td>
+      <td>미국 등 Google 데이터센터 소재 국가</td>
+    </tr>
+    <tr>
       <td>카카오 로컬 API<br>(주식회사 카카오)</td>
       <td>좌표 값, 검색 키워드</td>
       <td>주소 변환 및 판매점 장소 검색</td>
@@ -164,6 +210,18 @@
       <td>회차별 당첨번호 조회 및 QR 스캔을 통한 당첨 확인 페이지 표시</td>
       <td>대한민국</td>
     </tr>
+    <tr>
+      <td>Google Play 결제 시스템<br>(Google LLC)</td>
+      <td>상품 ID 및 결제 요청 정보, 스토어 계정·결제수단 정보(이용자가 스토어에 직접 입력하며 개발자를 거치지 않음)</td>
+      <td>인앱결제 처리, 영수증 발급·보관, 구독 관리, 구매 복원 및 환불</td>
+      <td>미국 등 Google 데이터센터 소재 국가</td>
+    </tr>
+    <tr>
+      <td>App Store 결제 시스템<br>(Apple Inc.) — iOS 이용 시</td>
+      <td>상품 ID 및 결제 요청 정보, 스토어 계정·결제수단 정보(이용자가 스토어에 직접 입력하며 개발자를 거치지 않음)</td>
+      <td>인앱결제 처리, 영수증 발급·보관, 구독 관리, 구매 복원 및 환불</td>
+      <td>미국 등 Apple 데이터센터 소재 국가</td>
+    </tr>
   </tbody>
 </table>
 
@@ -176,6 +234,7 @@
   <li>해당 데이터는 이용자가 앱 내에서 직접 삭제하거나, 앱의 데이터를 삭제하거나, 앱을 삭제하는 즉시 기기에서 영구 삭제됩니다.</li>
   <li>위치정보와 카메라 영상은 기능 수행 시점에만 일시적으로 사용되며 별도로 저장되지 않습니다.</li>
   <li>광고 사업자가 수집한 정보의 보유 기간은 해당 사업자의 방침을 따릅니다.</li>
+  <li>인앱결제 이용 내역(상품 ID, 이용 기간 등)은 이용자의 기기에만 저장되며, 앱의 데이터를 삭제하거나 앱을 삭제하면 함께 삭제됩니다. 다만 스토어 계정에 남는 구매 영수증은 각 스토어의 방침에 따라 보관되므로, 앱을 다시 설치한 뒤 "구매 복원"으로 남은 혜택을 되살릴 수 있습니다.</li>
 </ul>
 
 <h3>데이터 삭제 방법</h3>
@@ -229,21 +288,28 @@
 
 <p>법령이나 서비스 내용의 변경에 따라 본 방침이 수정될 수 있으며, 변경 시 본 페이지에 개정 내용과 시행일을 게시합니다. 중요한 변경이 있는 경우 앱 업데이트 공지 등을 통해 별도로 안내합니다.</p>
 
+<ul>
+  <li><strong>2026년 8월 27일:</strong> 인앱결제(광고 제거·후원 상품) 제공 사실을 명시하고, 결제 처리 주체가 Google Play / App Store임을 안내하는 내용을 추가했습니다. 개발자가 새로 수집하는 개인정보는 없습니다.</li>
+  <li><strong>2026년 7월 26일:</strong> 최초 시행</li>
+</ul>
+
 <h2 class="en">Privacy Policy (English Summary)</h2>
 <div class="en">
-<p><strong>Lotto Dosa</strong> does not require an account and does not collect or store personally identifiable information on any server operated by the developer. Numbers saved by the user, theme settings, and ad frequency records are stored only on the user's device and are deleted when the user clears the app data or uninstalls the app.</p>
+<p><strong>Lotto Dosa</strong> does not require an account and does not collect or store personally identifiable information on any server operated by the developer. The app offers optional in-app purchases, but payment processing is handled entirely by Google Play or the App Store. Numbers saved by the user, theme settings, and ad frequency records are stored only on the user's device and are deleted when the user clears the app data or uninstalls the app.</p>
 <ul>
   <li><strong>Location</strong> (optional) is used only at the moment of use to show nearby lottery retailers on a map; it is not stored by the developer.</li>
   <li><strong>Camera</strong> (optional) is used only to scan the QR code on a lottery ticket; no images are stored or transmitted by the developer.</li>
   <li><strong>Advertising:</strong> The app displays ads through Google AdMob, which may collect the advertising identifier, device information, and approximate location (IP-based) for ad delivery and measurement. See the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>. Users may reset or opt out of the advertising ID in their device settings.</li>
-  <li><strong>Third-party services:</strong> Kakao Local API and Naver Map SDK (map and place search), and dhlottery.co.kr (winning number lookup).</li>
+  <li><strong>In-app purchases:</strong> The app offers optional in-app purchases (ad removal subscription, one-month ad-free pass, and donation items). All payments are processed by <strong>Google Play</strong> or the <strong>App Store</strong>; the developer never receives, stores, or has access to payment method details. Only the purchase result (product ID, purchase/restore time, entitlement period) is stored on the user's device and is never sent to a developer-operated server. Receipts, subscription management, and refunds are handled by the respective store.</li>
+  <li><strong>Anonymous analytics:</strong> The app uses <strong>Google Firebase Analytics</strong> to measure whether its number-recommendation features actually contribute to wins. Matching against the winning numbers happens on the device; only the resulting prize tier, the feature that generated the numbers, and the number of sets checked are sent. <strong>The saved number combinations themselves are never transmitted</strong>, nor is any directly identifying information. Firebase additionally processes an app instance ID, device/app information, and the IP address for aggregation purposes.</li>
+  <li><strong>Third-party services:</strong> Kakao Local API and Naver Map SDK (map and place search), dhlottery.co.kr (winning number lookup), Google Play / App Store billing (in-app purchases), and Google Firebase Analytics (anonymous usage statistics).</li>
   <li>The app is not directed to children and does not knowingly collect data from children under 14.</li>
 </ul>
 <p>Questions or data deletion requests: <a href="mailto:hyuk9511@gmail.com">hyuk9511@gmail.com</a></p>
 </div>
 
 <footer>
-  <p>로또도사 · 최종 수정일 2026년 7월 26일<br>
+  <p>로또도사 · 최종 수정일 2026년 8월 27일<br>
   본 앱은 동행복권 및 관련 기관과 제휴 관계가 없는 비공식 애플리케이션입니다.</p>
 </footer>
 
